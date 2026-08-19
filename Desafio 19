@@ -1,0 +1,8 @@
+# Lista original de códigos de libros
+libros = [104, 302, 150, 88, 450]
+
+# Crear una nueva lista ordenada de forma descendente
+libros_ordenados = sorted(libros, reverse=True)
+
+print("Lista original:", libros)
+print("Lista ordenada:", libros_ordenados)
